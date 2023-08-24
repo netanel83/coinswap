@@ -12,6 +12,6 @@ import java.util.List;
 public interface SysAdvertiseDao extends JpaRepository<SysAdvertise,String>, JpaSpecificationExecutor<SysAdvertise>, QuerydslPredicateExecutor<SysAdvertise> {
 
     List<SysAdvertise> findAllByStatusAndSysAdvertiseLocationOrderBySortAsc(CommonStatus status, SysAdvertiseLocation sysAdvertiseLocation);
-    List<SysAdvertise> findAllByStatusAndSysAdvertiseLocationAndLangOrderBySortAsc(CommonStatus status, SysAdvertiseLocation sysAdvertiseLocation,String land);
+    List<SysAdvertise> findAllByStatusAndSysAdvertiseLocationAndLangOrderBySortAsc(CommonStatus status, SysAdvertiseLocation sysAdvertiseLocation,String lang);
 
 }

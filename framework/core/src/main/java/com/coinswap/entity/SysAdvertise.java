@@ -11,9 +11,9 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import java.util.Date;
 
+@Entity
 @Data
 @Table
-@Entity
 public class SysAdvertise {
     @Id
     private String serialNumber;
