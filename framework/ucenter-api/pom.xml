@@ -6,7 +6,7 @@
 		<groupId>com.coinswap</groupId>
 		<artifactId>exchange-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<groupId>com.coinswap</groupId>
 	<artifactId>ucenter-api</artifactId>
