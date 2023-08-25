@@ -11,6 +11,7 @@
         <module name="cloud" />
         <module name="core" />
         <module name="ucenter-api" />
+        <module name="exchange" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,8 @@
       <module name="api-gateway" options="-parameters" />
       <module name="cloud" options="-parameters" />
       <module name="core" options="-parameters" />
+      <module name="exchange" options="-parameters" />
+      <module name="exchange-parent" options="-parameters" />
       <module name="ucenter-api" options="-parameters" />
     </option>
   </component>
