@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/ucenter-api")
+@RequestMapping("/register")
 public class RegisterController {
     private static final Logger Logger = LoggerFactory.getLogger(RegisterController.class);
     @GetMapping("/test")
