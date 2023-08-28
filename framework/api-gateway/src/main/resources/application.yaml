@@ -17,7 +17,11 @@ spring:
           - id: ucenter-api
             uri: http://localhost:6001
             predicates:
-              - Path=/uc/**
+              - Path=/**
+          - id: exchange
+            uri: http://localhost:6002
+            predicates:
+              - Path=/**
 logging:
   level:
     org.springframework.cloud: DEBUG
